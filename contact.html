@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Big Sugar Sweets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <script src="https://kit.fontawesome.com/6ced75be87.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1>Big Sugar Sweets</h1>
+    <nav>
+      <ul>
+        <li> <a href="index.html">Home </a> </li>
+        <li> <a href="about.html"> About Big Sugar </a> </li>
+        <li> <a href="cookies.html"> Our Cookies </a></li>
+        <li> <a href="contact.html"> Contact and FAQ </a> </li>
+      </ul>
+    </nav>
+    <br>
+    <img src="images/bluebirds.jpg" alt="bluebird cookie" width="400" height="500">
+    <div class="FAQ">
+      <h1>Frequently Asked Questions </h1>
+        <h2> Can you ship me cookies? </h2>
+          <p> We can't ship, unfortunately, because of Ohio's Cottage Laws regarding home bakeries.</p>
+        <h2> What is the allergy information for the cookies?</h2>
+          <p>Our cookies contain gluten, nuts, eggs, and dairy products. We can make gluten free cookies for a slightly higher price, but we are not a gluten free or nut free kitchen.</p>
+        <h2> Will you deliver cookies if I live nearby? </h2>
+          <p>Yes!</p>
+        <h2> How do I get my cookies? </h2>
+          <p>You can come pick them up, or we will deliver them if you live in the Mansfield area!</p>
+    </div>
+    <br>
+    <img src="images/loonfifty.jpg" alt="loon cookie 50" width="1450" height="700">
+    <p> Placing an order? Just have questions? Use the form below to get in touch!</p>
+    <form   class="contact-form"
+      action="https://formspree.io/juliamax@umich.edu"
+      method="POST">
+
+      <!-- code adapted from discussion file by instructional team  -->
+        <fieldset>
+            <legend class="text-center header"><h1>Contact Us</h1>
+            </legend>
+
+            <div class="form-group">
+                <span> <i class="fas fa-user-edit fa-2x" ></i> </span>
+                <div>
+                    <input id="name" name="name" type="text" placeholder="Name" class="form-control">
+                </div>
+
+            <div class="form-group">
+                <span><i class="fa fa-paper-plane fa-2x"></i></span>
+                <div>
+                    <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <span><i class = "fas fa-pencil-alt fa-2x"></i></span>
+                <div>
+                    <textarea class= "form-control" id="message" name="message" placeholder="Enter your message for us here! We will get back to you ASAP."></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div>
+                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                </div>
+            </div>
+        </fieldset>
+      </form>
+      <footer>
+        <p> Site Developed by Julia Maxwell for SI 539 </p>
+        <a href = https://www.facebook.com/bigsugarsweets> <span> <i class="fab fa-facebook-square fa-4x"></i></span> </a>
+        <a href = https://www.instagram.com/bigsugarsweets/> <span> <i class= "fab fa-instagram fa-4x" ></i></span> </a>
+      </footer>
+    </body>
+</html>
